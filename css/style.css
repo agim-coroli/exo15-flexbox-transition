@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header, footer{
+    background-color: blue;
+    border-radius: 5px ;
+    height: 50px;
+    margin: 5px;
+}
+.container{
+    display: flex;
+} 
+nav{
+    margin: 5px;
+    background-color: coral;
+    height: 570px;
+    width: 250px;
+    border-radius: 5px ;
+    order: 1;
+}
+aside{
+    margin: 5px;
+    background-color: coral;
+    height: 570px;
+    width: 250px;
+    border-radius: 5px ;
+    order: 3;
+}
+article{
+    margin: 5px;
+    background-color: cornflowerblue;
+    flex-grow: 2;
+    border-radius: 5px ;
+    order: 2;
+}  
